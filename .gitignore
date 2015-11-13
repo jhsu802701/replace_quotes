@@ -11,3 +11,6 @@
 tmp*
 .DS_Store
 *.gem
+
+/log/
+gemsurance_report.html
