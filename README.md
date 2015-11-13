@@ -1,4 +1,4 @@
-https://api.travis-ci.org/jhsu802701/replace_quotes.svg?branch=master
+[![Build Status](https://travis-ci.org/jhsu802701/replace_quotes.svg?branch=master)](https://travis-ci.org/jhsu802701/replace_quotes)
 
 # ReplaceQuotes
 
