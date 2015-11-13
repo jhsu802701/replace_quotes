@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/jhsu802701/replace_quotes.svg?branch=master)](https://travis-ci.org/jhsu802701/replace_quotes)
 [![Code Climate](https://codeclimate.com/github/jhsu802701/replace_quotes/badges/gpa.svg)](https://codeclimate.com/github/jhsu802701/replace_quotes)
 [![Test Coverage](https://codeclimate.com/github/jhsu802701/replace_quotes/badges/coverage.svg)](https://codeclimate.com/github/jhsu802701/replace_quotes/coverage)
+[![security](https://hakiri.io/github/jhsu802701/replace_quotes/master.svg)](https://hakiri.io/github/jhsu802701/replace_quotes/master)
 
 # ReplaceQuotes
 
