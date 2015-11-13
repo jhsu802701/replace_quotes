@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jhsu802701/replace_quotes.svg?branch=master)](https://travis-ci.org/jhsu802701/replace_quotes)
+[![Code Climate](https://codeclimate.com/github/jhsu802701/replace_quotes/badges/gpa.svg)](https://codeclimate.com/github/jhsu802701/replace_quotes)
 
 # ReplaceQuotes
 
