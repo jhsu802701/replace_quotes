@@ -34,4 +34,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'sandi_meter'
   spec.add_development_dependency 'bundler-audit'
   spec.add_development_dependency 'gemsurance'
+  spec.add_development_dependency 'codeclimate-test-reporter'
 end
