@@ -1,5 +1,6 @@
-require "replace_quotes/version"
+require 'replace_quotes/version'
 
+#
 module ReplaceQuotes
   # Your code goes here...
 end
