@@ -1,0 +1,2 @@
+"I hope we're using Ruby on High Speed Rails."
+"There's Ruby on High Speed Rails, and there's Not Exactly."

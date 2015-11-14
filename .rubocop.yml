@@ -1,3 +1,11 @@
 Metrics/LineLength:
   Exclude:
     - replace_quotes.gemspec
+
+MethodLength:
+  Exclude:
+    - lib/replace_quotes.rb
+
+Metrics/AbcSize:
+  Exclude:
+    - lib/replace_quotes.rb
