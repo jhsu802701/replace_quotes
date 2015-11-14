@@ -43,7 +43,7 @@ Or install it yourself as:
 
 ## Usage
 
-Enter the command "ReplaceQuotes.update(filename)", where filename is the name of the file for which you wish to replace unnecessary double quotes with single quotes.
+In a Ruby script or console, enter the command `ReplaceQuotes.update(filename)`, where filename is the name of the file for which you wish to replace unnecessary double quotes with single quotes.
 
 ## Development
 
