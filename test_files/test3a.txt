@@ -1,0 +1,5 @@
+'There is Ruby on High Speed Rails, and there is Not Exactly.'
+'Make sure you choose the correct one.'
+
+"I hope we're using Ruby on High Speed Rails"
+"There's Ruby on High Speed Rails, and there's Not Exactly."

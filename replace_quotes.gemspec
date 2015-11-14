@@ -35,4 +35,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler-audit'
   spec.add_development_dependency 'gemsurance'
   spec.add_development_dependency 'codeclimate-test-reporter'
+
+  spec.add_runtime_dependency 'string_in_file'
 end
