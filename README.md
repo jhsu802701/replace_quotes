@@ -6,9 +6,24 @@
 
 # ReplaceQuotes
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/replace_quotes`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem is used for improving RuboCop compliance by replacing unnecessary double quotes with single quotes in a file.  To avoid causing errors, ReplaceQuotes leaves double quotes alone when they are used in a line containing single quotes.
+<br><br>
+Before:
+```
+"There is Ruby on High Speed Rails, and there is Not Exactly."
+"Make sure you choose the correct one."
 
-TODO: Delete this and the text above, and describe your gem
+"I hope we're using Ruby on High Speed Rails"
+"There's Ruby on High Speed Rails, and there's Not Exactly."
+```
+After:
+```
+'There is Ruby on High Speed Rails, and there is Not Exactly.'
+'Make sure you choose the correct one.'
+
+"I hope we're using Ruby on High Speed Rails"
+"There's Ruby on High Speed Rails, and there's Not Exactly."
+```
 
 ## Installation
 
@@ -28,7 +43,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Enter the command "ReplaceQuotes.update(filename)", where filename is the name of the file for which you wish to replace unnecessary double quotes with single quotes.
 
 ## Development
 
@@ -37,6 +52,9 @@ TODO: Write usage instructions here
 
 Enter `sh gem_test.sh`.
 
+### Testing the source code
+Enter `sh gem_code.sh`.
+
 ### Running this gem in irb
 
 Enter `sh gem_console.sh`.
@@ -44,6 +62,10 @@ Enter `sh gem_console.sh`.
 ### Installing this gem
 
 Enter `sh gem_install.sh`.
+
+### Testing this gem and source code AND installing this gem
+
+Enter `sh all.sh`.
 
 ## Contributing
 
