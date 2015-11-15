@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/replace_quotes.svg)](https://badge.fury.io/rb/replace_quotes)
 [![Dependency Status](https://gemnasium.com/jhsu802701/replace_quotes.svg)](https://gemnasium.com/jhsu802701/replace_quotes)
 [![Build Status](https://travis-ci.org/jhsu802701/replace_quotes.svg?branch=master)](https://travis-ci.org/jhsu802701/replace_quotes)
 [![Code Climate](https://codeclimate.com/github/jhsu802701/replace_quotes/badges/gpa.svg)](https://codeclimate.com/github/jhsu802701/replace_quotes)
