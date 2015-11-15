@@ -26,6 +26,8 @@ describe ReplaceQuotes do
   file3b = 'tmp1/test3.txt'
   file4a = 'tmp1/test4a.txt'
   file4b = 'tmp1/test4.txt'
+  file5a = 'tmp1/test5a.txt'
+  file5b = 'tmp1/test5.txt'
 
   it 'handles file with double quotes only' do
     expect(filematch(file1a, file1b)).to eq(false)
@@ -49,5 +51,11 @@ describe ReplaceQuotes do
     expect(filematch(file4a, file4b)).to eq(true)
     ReplaceQuotes.update(file4b)
     expect(filematch(file4a, file4b)).to eq(true)
+  end
+
+  it 'handles file with #{}, no change' do
+    expect(filematch(file5a, file5b)).to eq(false)
+    ReplaceQuotes.update(file5b)
+    expect(filematch(file5a, file5b)).to eq(true)
   end
 end
