@@ -6,7 +6,7 @@
 
 # ReplaceQuotes
 
-This gem is used for improving RuboCop compliance by replacing unnecessary double quotes with single quotes in a file.  To avoid causing errors, ReplaceQuotes leaves double quotes alone when they are used in a line containing single quotes.
+This gem is used for improving RuboCop compliance by replacing unnecessary double quotes with single quotes in a file.  To avoid causing errors, ReplaceQuotes leaves double quotes alone when they are used in a line containing single quotes or "#{".
 <br><br>
 Before:
 ```
@@ -15,6 +15,11 @@ Before:
 
 "I hope we're using Ruby on High Speed Rails"
 "There's Ruby on High Speed Rails, and there's Not Exactly."
+
+option1 = "High Speed Ruby on Rails"
+option2 = "Not Exactly"
+"#{option1} is much better and faster than #{option2}."
+
 ```
 After:
 ```
@@ -23,6 +28,10 @@ After:
 
 "I hope we're using Ruby on High Speed Rails"
 "There's Ruby on High Speed Rails, and there's Not Exactly."
+
+option1 = 'High Speed Ruby on Rails'
+option2 = 'Not Exactly'
+"#{option1} is much better and faster than #{option2}."
 ```
 
 ## Installation
