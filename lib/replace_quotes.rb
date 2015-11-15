@@ -12,7 +12,6 @@ module ReplaceQuotes
       single_quote = (line.include? "'")
       pound_cb = (line.include? '#{')
       if (single_quote == false) && (pound_cb == false)
-        puts path, line
         line_alt = line.tr('"', "'")
         file_w.write(line_alt)
       else
